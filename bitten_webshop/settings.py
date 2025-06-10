@@ -25,7 +25,7 @@ SECRET_KEY = "django-insecure-yu_wnl5zr6%^4*9@p7zh=l-tf8=m8l0b!93xk1#ra43e(b%=oj
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['bitten-webshop.onrender.com', 'localhost', '127.0.0.1']
 
 
 # Application definition
