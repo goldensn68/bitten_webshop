@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+  <meta charset="UTF-8">
+  <title>Bitten Clausens Besætningsshop</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+  <header>
+    <h1><a href="{{ url_for('index') }}">Bitten Clausens Besætningsshop</a></h1>
+    {% if session.get('user') %}
+      <p>Logget ind som: {{ session['user'] }} | <a href="{{ url_for('logout') }}">Log ud</a></p>
+    {% endif %}
+  </header>
+  <main>
+    {% block content %}{% endblock %}
+  </main>
+</body>
+</html>

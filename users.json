@@ -1,0 +1,10 @@
+{
+  "besaetning@bitten.dk": {
+    "password": "1234",
+    "points": 120
+  },
+  "admin@bitten.dk": {
+    "password": "admin",
+    "points": 500
+  }
+}
